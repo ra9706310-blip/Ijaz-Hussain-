@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🏎️ Car Racing Game</h1>
+        <div class="stats">
+            <p>Score: <span id="score">0</span></p>
+            <p>Speed: <span id="speed">0</span> km/h</p>
+        </div>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div class="instructions">
+            <p><strong>Controls:</strong></p>
+            <p>← → Arrow Keys or A/D to Move</p>
+            <p>↑ Arrow Key or W to Speed Up</p>
+            <p>↓ Arrow Key or S to Slow Down</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
